@@ -13,6 +13,10 @@ Gem::Specification.new do |gem|
   gem.email        = ['code@extremist.digital']
   gem.homepage     = 'https://github.com/celluloid/celluloid-imap'
 
+  gem.authors      = ["Deepak Sahu"]
+  gem.email        = ['dsahu123456789@gmail.com']
+  gem.homepage     = 'https://github.com/celluloid/celluloid-imap'
+
   gem.files        = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|examples|spec|features)/}) }
   gem.require_path = 'lib'
 
