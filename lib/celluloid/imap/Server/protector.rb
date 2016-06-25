@@ -1,6 +1,6 @@
-class Celluloid::SMTP::Server
+class Celluloid::IMAP::Server
   class << self
-    include Celluloid::SMTP::Extensions
+    include Celluloid::IMAP::Extensions
     def protector(io)
       Thread.new {
         Timeout.timeout(TIMEOUT) {
